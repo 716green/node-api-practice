@@ -58,8 +58,8 @@ function mul(a, b) {
 function div(a, b) {
     c = (a / b)
     d = (a % b)
-    //return parseInt(toString(c)+'.'+toString(d))
-    return parseInt(c.toString()+'.'+d.toString())
+        //return parseInt(toString(c)+'.'+toString(d))
+    return parseInt(c.toString() + '.' + d.toString())
 }
 
 console.log('maths.js has run')

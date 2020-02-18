@@ -6,13 +6,13 @@
 //const maths = require('./maths'); //alternative:
 const maths = { add, mul, div } = require('./maths')
 const request = require('request')
-request ('http://www.example.com', (error, response, body) => {
+request('http://www.example.com', (error, response, body) => {
     if (error) console.log('error:', error) // print error if error
     else console.log('body:', body) // print html for the site
 })
 
 const fs = require('fs') // call in file system (fs)
-// define file path for sample file to be used in function below
+    // define file path for sample file to be used in function below
 let sample = 'lesson-1/activity-a/sample.json';
 
 
